@@ -50,9 +50,14 @@ We use a **single subnet** for simplicity (can extend to VLANs later):
 ---
 
 ## ✅ Verification
-- From **PC1**, ping all other PCs (PC2–PC6).  
+- From **PC1**, ping all other PCs (PC2–PC6). 
+  ```bash
+  ping 192.168.1.5   # PC4
+  ping 192.168.1.7   # PC6
 - If a router is added, ping the router’s gateway IP.  
-- All devices should communicate since they share the same network.  
+- All devices should communicate since they share the same network. 
+- All devices should successfully reply, since they are in the same LAN.
+- Use Simulation Mode in Packet Tracer to view packet flow via the Core Switch. 
 
 ---
 
