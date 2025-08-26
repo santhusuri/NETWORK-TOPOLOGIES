@@ -34,18 +34,18 @@ We use **/30 subnets** for point-to-point links:
 
 ### 🖥️ Router0
 ```bash
-enable
-configure terminal
-!
-interface gigabitEthernet 0/0
- ip address 10.0.1.1 255.255.255.252
- no shutdown
-!
-interface gigabitEthernet 0/1
- ip address 10.0.3.2 255.255.255.252
- no shutdown
-end
-write memory
+    enable
+    configure terminal
+    !
+    interface gigabitEthernet 0/0
+    ip address 10.0.1.1 255.255.255.252
+    no shutdown
+    !
+    interface gigabitEthernet 0/1
+    ip address 10.0.3.2 255.255.255.252
+    no shutdown
+    end
+    write memory
 
 
 
