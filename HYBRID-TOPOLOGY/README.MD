@@ -110,46 +110,46 @@
 
 Core to Access Switches
 
-    Core Sw Fa0/1 ↔ Access Sw1 Fa0/1 (Straight-Through)
+- Core Sw Fa0/1 ↔ Access Sw1 Fa0/1 (Straight-Through)
 
-    Core Sw Fa0/2 ↔ Access Sw2 Fa0/1 (Straight-Through)
+- Core Sw Fa0/2 ↔ Access Sw2 Fa0/1 (Straight-Through)
 
 Access Switch1 ↔ PCs
 
-    PC1 (Fa0) ↔ Access Sw1 (Fa0/2)
+- PC1 (Fa0) ↔ Access Sw1 (Fa0/2)
 
-    PC2 (Fa0) ↔ Access Sw1 (Fa0/3)
+- PC2 (Fa0) ↔ Access Sw1 (Fa0/3)
 
 Access Switch2 ↔ PCs
 
-    PC3 (Fa0) ↔ Access Sw2 (Fa0/2)
+- PC3 (Fa0) ↔ Access Sw2 (Fa0/2)
 
-    PC4 (Fa0) ↔ Access Sw2 (Fa0/3)
+- PC4 (Fa0) ↔ Access Sw2 (Fa0/3)
 
 Core Switch ↔ Routers
 
-    Core Sw Fa0/4 ↔ Router0 Fa0/0 (Straight-Through)
+- Core Sw Fa0/4 ↔ Router0 Fa0/0 (Straight-Through)
 
-    Core Sw Fa0/5 ↔ Router1 Fa0/0 (Straight-Through)
+- Core Sw Fa0/5 ↔ Router1 Fa0/0 (Straight-Through)
 
 Router ↔ Router (Redundancy Link)
 
-    Router0 Fa0/1 ↔ Router1 Fa0/1 (Cross-Over Cable)
+- Router0 Fa0/1 ↔ Router1 Fa0/1 (Cross-Over Cable)
 
 
 ## ✅ Testing & Verification
 
 PC to PC Communication
 
-    From PC1, ping PC2 → ping 192.168.10.3
+- From PC1, ping PC2 → ping 192.168.10.3
 
-    From PC3, ping PC4 → ping 192.168.20.3
+- From PC3, ping PC4 → ping 192.168.20.3
 
 Inter-VLAN Communication via Routers
 
-    From PC1, ping PC3 → ping 192.168.20.2
+- From PC1, ping PC3 → ping 192.168.20.2
 
-    From PC2, ping PC4 → ping 192.168.20.3
+- From PC2, ping PC4 → ping 192.168.20.3
 
 Router Redundancy Test
 
