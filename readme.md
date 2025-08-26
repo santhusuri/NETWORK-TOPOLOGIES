@@ -5,18 +5,6 @@ Each folder represents a specific topology with configurations, screenshots, and
 
 ---
 
-## 📁 Repository Structure
-
-    network-topology/
-    │── bus/ # Bus topology simulation
-    │── mesh/ # Full Mesh & Partial Mesh topology
-    │── tree/ # Tree topology (hierarchical)
-    │── ring/ # Ring topology simulation
-    │── star/ # Star topology simulation
-    │── hybrid/ # Hybrid topology (combination of two or more)
-    │── README.md # Documentation
----
-
 ## 🔀 Topologies Covered
 
 ### 1. **Bus Topology**
