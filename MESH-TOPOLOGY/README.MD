@@ -47,51 +47,51 @@ interface gigabitEthernet 0/1
 end
 write memory
 
----
+
 
 ### 🖥️ Router1
 ```bash
-enable
-configure terminal
-!
-interface gigabitEthernet 0/0
- ip address 10.0.1.2 255.255.255.252
- no shutdown
-!
-interface gigabitEthernet 0/1
- ip address 10.0.2.1 255.255.255.252
- no shutdown
-end
-write memory
+    enable
+    configure terminal
+    !
+    interface gigabitEthernet 0/0
+    ip address 10.0.1.2 255.255.255.252
+    no shutdown
+    !
+    interface gigabitEthernet 0/1
+    ip address 10.0.2.1 255.255.255.252
+    no shutdown
+    end
+    write memory
 
 ---
 
 ### 🖥️ Router2
 ```bash
-enable
-configure terminal
-!
-interface gigabitEthernet 0/0
- ip address 10.0.2.2 255.255.255.252
- no shutdown
-!
-interface gigabitEthernet 0/1
- ip address 10.0.3.1 255.255.255.252
- no shutdown
-end
-write memory
+    enable
+    configure terminal
+    !
+    interface gigabitEthernet 0/0
+    ip address 10.0.2.2 255.255.255.252
+    no shutdown
+    !
+    interface gigabitEthernet 0/1
+    ip address 10.0.3.1 255.255.255.252
+    no shutdown
+    end
+    write memory
 
 ---
 
 ## ✅ Verification
 
-From Router0:
+    From Router0:
     ping 10.0.1.2   # Router1
     ping 10.0.3.1   # Router2
-From Router1:
+    From Router1:
     ping 10.0.1.1   # Router0
     ping 10.0.2.2   # Router2
-From Router2:
+    From Router2:
     ping 10.0.2.1   # Router1
     ping 10.0.3.2   # Router0
 
