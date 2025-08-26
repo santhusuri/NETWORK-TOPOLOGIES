@@ -31,10 +31,10 @@
 | PC2    | Fa0               | 192.168.10.3  | 255.255.255.0 |
 | PC3    | Fa0               | 192.168.20.2  | 255.255.255.0 |
 | PC4    | Fa0               | 192.168.20.3  | 255.255.255.0 |
-| Router0| G0/0 (to Core)    | 10.0.1.1      | 255.255.255.252 |
-| Router1| G0/0 (to Core)    | 10.0.1.2      | 255.255.255.252 |
-| Router0| G0/1 (to Router1) | 10.0.2.1      | 255.255.255.252 |
-| Router1| G0/1 (to Router0) | 10.0.2.2      | 255.255.255.252 |
+| Router0| Fa0/0 (to Core)    | 10.0.1.1      | 255.255.255.252 |
+| Router1| Fa0/0 (to Core)    | 10.0.1.2      | 255.255.255.252 |
+| Router0| Fa0/1 (to Router1) | 10.0.2.1      | 255.255.255.252 |
+| Router1| Fa0/1 (to Router0) | 10.0.2.2      | 255.255.255.252 |
 
 *(VLANs can be created on the Core Switch to segment PC1/PC2 and PC3/PC4)*  
 
