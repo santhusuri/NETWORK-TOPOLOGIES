@@ -8,8 +8,8 @@
 ---
 
 ## 🏗️ Network Topology
-![Ring Topology](topology.png)  
-*(Replace `topology.png` with a screenshot of your Packet Tracer Ring Topology)*
+![Ring Topology](ringtopology.png)  
+
 
 ---
 

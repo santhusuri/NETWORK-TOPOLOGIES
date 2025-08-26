@@ -8,8 +8,8 @@
 ---
 
 ## 🏗️ Network Topology
-![Star Topology](topology.png)  
-*(Replace `topology.png` with a screenshot of your Packet Tracer Star Topology)*
+![Star Topology](startopology.png)  
+
 
 ---
 

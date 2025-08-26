@@ -8,8 +8,8 @@
 ---
 
 ## 🏗️ Network Topology
-![Mesh Topology](topology.png)  
-*(Replace `topology.png` with a screenshot of your Packet Tracer 3-router mesh project)*  
+![Mesh Topology](meshtopology.png)  
+ 
 
 ---
 

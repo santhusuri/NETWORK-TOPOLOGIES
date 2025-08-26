@@ -8,8 +8,8 @@
 ---
 
 ## 🏗️ Network Topology
-![Bus Topology](topology.png)  
-*(Replace `topology.png` with a screenshot of your Packet Tracer topology)*
+![Bus Topology](bustopology.png)  
+
 
 ---
 
