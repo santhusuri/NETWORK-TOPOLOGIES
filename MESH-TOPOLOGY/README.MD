@@ -33,7 +33,7 @@ We use **/30 subnets** for point-to-point links:
 ## 🔧 Configuration Steps
 
 ### 🖥️ Router0
-```bash
+
     enable
     configure terminal
     !
@@ -50,7 +50,7 @@ We use **/30 subnets** for point-to-point links:
 
 
 ### 🖥️ Router1
-```bash
+
     enable
     configure terminal
     !
@@ -67,7 +67,7 @@ We use **/30 subnets** for point-to-point links:
 ---
 
 ### 🖥️ Router2
-```bash
+
     enable
     configure terminal
     !
