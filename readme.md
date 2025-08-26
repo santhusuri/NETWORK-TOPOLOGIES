@@ -7,14 +7,14 @@ Each folder represents a specific topology with configurations, screenshots, and
 
 ## 📁 Repository Structure
 
-network-topology/
-│── bus/ # Bus topology simulation
-│── mesh/ # Full Mesh & Partial Mesh topology
-│── tree/ # Tree topology (hierarchical)
-│── ring/ # Ring topology simulation
-│── star/ # Star topology simulation
-│── hybrid/ # Hybrid topology (combination of two or more)
-│── README.md # Documentation
+    network-topology/
+    │── bus/ # Bus topology simulation
+    │── mesh/ # Full Mesh & Partial Mesh topology
+    │── tree/ # Tree topology (hierarchical)
+    │── ring/ # Ring topology simulation
+    │── star/ # Star topology simulation
+    │── hybrid/ # Hybrid topology (combination of two or more)
+    │── README.md # Documentation
 ---
 
 ## 🔀 Topologies Covered
@@ -58,8 +58,8 @@ network-topology/
 ## 🚀 How to Use
 1. Clone this repo:
    ```bash
-   git clone https://github.com/santhusuri/NETWORKING-TOPLOGIES.git
-   cd NETWORKING-TOPLOGIES
+   git clone https://github.com/santhusuri/NETWORK-TOPOLOGIES.git
+   cd NETWORK-TOPOLOGIES
 
 2. Open any .pkt file in Cisco Packet Tracer.
 
