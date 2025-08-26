@@ -47,6 +47,8 @@ interface gigabitEthernet 0/1
 end
 write memory
 
+---
+
 ### 🖥️ Router1
 ```bash
 enable
@@ -61,6 +63,8 @@ interface gigabitEthernet 0/1
  no shutdown
 end
 write memory
+
+---
 
 ### 🖥️ Router2
 ```bash
